@@ -1,6 +1,6 @@
-# My Data Engineering Portfolio
+# Alpha Project: Setting up infrastructure for local development
 
-This is a portfolio repository about projects I worked on during my final semester at altschool as a student.
+This project is about seeting up infrastructure for local development
 
 ## Projects
 

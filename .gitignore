@@ -1,2 +1,5 @@
 .venv
 pg_data
+.env
+__pycache__
+LICENSE
