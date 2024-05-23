@@ -1,6 +1,5 @@
 # Alpha Project: Setting up infrastructure for local development
 
-<<<<<<< HEAD
 ## Overview
 
 This project provides a setup to use Docker Compose to create a PostgreSQL image and run a Python script to execute SQL files against the PostgreSQL database. The goal is to simplify the development and testing of SQL scripts in a consistent environment.
@@ -106,9 +105,3 @@ pip install python-dotenv
 ## Conclusion
 
 I have successfully set up a PostgreSQL database using Docker Compose and executed SQL commands using a Python script. This setup can be easily adapted for more complex database initialization and management tasks.
-=======
-This is a portfolio repository about projects I worked on during my final semester at AltSchool as a data engineering student.
-
-## Projects
-Alpha Project: This project involves setting up a PostgreSQL database using Docker Compose and executing an SQL script using Python. The purpose is to automate the creation of a PostgreSQL container, initialize the database, and run SQL commands.
->>>>>>> d64efbe6614d19b94f848c8233d9e1fb3a43f658
