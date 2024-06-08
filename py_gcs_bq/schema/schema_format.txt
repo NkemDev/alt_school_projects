@@ -1,0 +1,19 @@
+{
+        "id": 1,
+        "name": "#killallzombies",
+        "genre": [
+            "Shooter"
+        ],
+        "developers": [
+            "Beatshapers"
+        ],
+        "publishers": [
+            "Beatshapers"
+        ],
+        "releaseDates": {
+            "Japan": "Unreleased",
+            "NorthAmerica": "Nov 12, 2014",
+            "Europe": "Oct 28, 2014",
+            "Australia": "Oct 28, 2014"
+        }
+    }
