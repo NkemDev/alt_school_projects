@@ -3,7 +3,7 @@ from google.cloud.exceptions import NotFound, Conflict
 import logging
 import json
 import io
-import mimetypes
+
 
 def create_dataset(client:bigquery.Client,dataset_id:str)-> None:
     try:
@@ -25,8 +25,9 @@ def create_table(client:bigquery.Client,project_id:str,dataset_id:str,table_id:s
         table_ref =f"{project_id}.{dataset_id}.{table_id}"
         table =bigquery.Table(table_ref,schema=schema)
         client.create_table(table)
+        logging.info(f"Table{table_id} created successfully")
     except Conflict:
-        logging.info("Table already exists, exiting successfully")
+        logging.info(f"{table_id}Table already exists, exiting successfully")
     except Exception as e:
         logging.error(f"Encountered issue creating the table {table_id}:{e}")
 
