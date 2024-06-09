@@ -1,34 +1,47 @@
 [
-    {
-      "name": "id",
-      "type": "INTEGER"
-      
-    },
-    {
-      "name": "name",
-      "type": "STRING"
-     
-    },
-    {
-      "name": "genre",
-      "type": "ARRAY"
-      
-    },
-    {
-      "name": "developers",
-      "type": "ARRAY"
-      
-    },
-    {
-      "name": "publishers",
-      "type": "ARRAY"
-      
-    },
-    {
-      "name": "releaseDates",
-      "type": "STRUCT"
-      
-      
-    }
-  ]
-  
+  {
+    "name": "id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "name": "genre",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "developers",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "publishers",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "releaseDates",
+    "type": "RECORD",
+    "fields": [
+      {
+        "name": "Japan",
+        "type": "STRING"
+      },
+      {
+        "name": "NorthAmerica",
+        "type": "STRING"
+      },
+      {
+        "name": "Europe",
+        "type": "STRING"
+      },
+      {
+        "name": "Australia",
+        "type": "STRING"
+      }
+    ]
+  }
+]

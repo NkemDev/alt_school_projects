@@ -65,7 +65,7 @@ class PlayStationAPI(BaseAPI):
         super().__init__(base_url, headers)
     
     def get_transactions(self):
-        endpoint = "/accounts"
+        endpoint = "/games"
         return self.get(endpoint)
     
     @staticmethod
