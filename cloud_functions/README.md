@@ -1,0 +1,2 @@
+# cloud_functions
+Google Cloud Functions is a serverless execution environment that enables you to run code in response to events without managing or provisioning servers. This project shows how to use cloud_fuctions to automate the transfer of files from a GCS bucket to google big query
